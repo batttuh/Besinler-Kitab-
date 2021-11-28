@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.BesinDetayiFragment"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/besinGorsel"
+            android:layout_margin="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_launcher_background">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/besinAdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Besin Adi"
+            android:textSize="15sp"
+            ></TextView>
+        <TextView
+            android:id="@+id/besinKalori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="besinKalori"
+            android:textSize="15sp"
+            android:layout_margin="15dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/besinKarbonhidrat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="besinKarbonhidrat"
+            android:textSize="15sp"
+            android:layout_margin="15dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/besinProtein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="besinProtein"
+            android:textSize="15sp"
+            android:layout_margin="15dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/besinYag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="besinYag"
+            android:textSize="15sp"
+            android:layout_margin="15dp"
+            ></TextView>
+
+
+
+
+
+    </LinearLayout>
+
+</layout>
